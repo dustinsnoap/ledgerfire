@@ -7,4 +7,8 @@ import fonts from './components/fonts'
 export default createGlobalStyle`
     ${reset}
     ${fonts}
+    #root {
+        height: 100vh;
+        width: 100vw;
+    }
 `

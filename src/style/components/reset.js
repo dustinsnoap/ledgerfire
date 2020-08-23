@@ -43,4 +43,11 @@ export default `
     a {
         text-decoration: none;
     }
+    input {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        outline: none;
+        background-color: transparent;
+    }
 `
