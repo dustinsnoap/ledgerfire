@@ -1,0 +1,1 @@
+A view is a collection of components that make up a page.
