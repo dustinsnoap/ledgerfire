@@ -13,8 +13,8 @@ export default () =>
             <span>LedgerFire</span>
         </Link>
         <div className='links'>
-            <Link className='link'>Link 1</Link>
-            <Link className='link'>Link 2</Link>
-            <Link className='link'>Link 3</Link>
+            <Link to='#' className='link'>Link 1</Link>
+            <Link to='#' className='link'>Link 2</Link>
+            <Link to='#' className='link'>Link 3</Link>
         </div>
     </Style>

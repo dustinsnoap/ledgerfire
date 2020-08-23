@@ -2,7 +2,7 @@ export default `
     display: flex;
     height: 5vh;
     padding: 1vh;
-    position: fixed;
+    // position: fixed;
     align-items: center;
     justify-content: space-between;
     width: 100%;

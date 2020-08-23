@@ -1,13 +1,13 @@
 export default `
     height: 100%;
     width: 100%;
-    // background-color: #494;
-    display: flex;
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    justify-items: center;
     align-items: center;
-    justify-content: center;
+    height: 100vh;
     .content {
         height: 60%;
-        width: 30%;
         display: grid;
         grid-template-rows: min-content 1fr;
         .banner {
@@ -53,7 +53,9 @@ export default `
             height: max-content;
             font-family: hind;
             width: 100%;
-            button {
+            button, a {
+                background-color: #eee;
+                border: 1px solid black;
                 width: 25%;
                 height: 100%;
                 padding: 1vh;
@@ -61,6 +63,8 @@ export default `
                 cursor: pointer;
                 span {
                     width: 100%;
+                    text-align: center;
+                    font-family: hind;
                 }
                 &:hover {
                     background-color: #6c0;
