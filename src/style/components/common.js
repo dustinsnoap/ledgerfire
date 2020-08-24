@@ -15,7 +15,7 @@ export default `
             font-family: hind;
             font-variant: small-caps;
             padding: .5vh 0 0 .5vh;
-            font-size: 1.5vh;
+            font-size: 3vh;
             font-weight: 1000;
         }
     }
