@@ -24,6 +24,10 @@ export default `
         color: #ccc;
         border: 1px solid #ccc;
         border-radius: .5vh;
+        &.active {
+            background-color: #ccc;
+            color: #111;
+        }
         &:hover {
             background-color: #ccc;
             border-color: #ccc;
