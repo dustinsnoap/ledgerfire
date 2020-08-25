@@ -11,7 +11,7 @@ import Banner from '../../assets/placeholder-2.png'
 
 export default () =>
     <Styled className='page'>
-        <Header />
+        <Header secure={false} />
         <div className='content'>
             <img className='banner' src={Banner} alt='banner'/>
             <Login />
