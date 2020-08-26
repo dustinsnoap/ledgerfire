@@ -2,11 +2,13 @@
 import React from 'react'
 //components
 import SidePanel from '../../components/side_panel'
+import Header from '../../components/header'
 //style
 import Style from './style'
 
 export default () =>
-    <Style className='home'>
+    <Style className='page home'>
         <SidePanel page='home' />
-        <span>Home Page</span>
+        <Header secure={true} />
+        Home
     </Style>

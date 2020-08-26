@@ -1,4 +1,5 @@
 export default `
+    grid-row: 1 / span 2;
     display: grid;
     grid-auto-rows: min-content;
     grid-row-gap: 2vh;

@@ -3,6 +3,11 @@ export default `
         height: 100vh;
         width: 100vw;
     }
+    .page {
+        display: grid;
+        grid-template-rows: min-content 1fr;
+        grid-template-columns: min-content 1fr;
+    }
     .logo {
         justify-self: flex-start;
         height: 3vh;
