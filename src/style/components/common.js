@@ -5,8 +5,8 @@ export default `
     }
     .page {
         display: grid;
-        grid-template-rows: min-content 1fr;
-        grid-template-columns: min-content 1fr;
+        grid-template-rows: max-content 1fr;
+        grid-template-columns: max-content 1fr;
     }
     .logo {
         justify-self: flex-start;

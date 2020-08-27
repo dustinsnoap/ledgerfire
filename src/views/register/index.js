@@ -10,7 +10,7 @@ import Banner from '../../assets/placeholder-2.png'
 // import Banner from '../../assets/placeholder.jpg'
 
 export default () =>
-    <Styled className='page'>
+    <Styled className='marketing'>
         <Header secure={false} />
         <div className='content'>
             <img className='banner' src={Banner} alt='banner'/>
