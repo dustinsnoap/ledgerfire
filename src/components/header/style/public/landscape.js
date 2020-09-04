@@ -2,9 +2,8 @@ export default `
     display: flex;
     height: 5vh;
     padding: 1vh;
-    // position: fixed;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 100%;
     .links {
         font-family: hind;

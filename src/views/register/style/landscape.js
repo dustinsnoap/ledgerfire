@@ -1,13 +1,13 @@
 export default `
     height: 100%;
     width: 100%;
-    display: grid;
-    grid-template-rows: min-content 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     justify-items: center;
     align-items: center;
-    height: 100vh;
     .content {
-        height: 60%;
+        height: 50%;
         display: grid;
         grid-template-rows: min-content 1fr;
         .banner {

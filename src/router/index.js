@@ -1,19 +1,30 @@
 //imports
 import React from 'react'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
+//utilities
+import {Public, Private} from '../utilities/routes'
 //pages
 import Register from '../views/register'
-import Marketing from '../components/marketing'
-import Home from '../views/home'
+import Dashboard from '../components/dashboard'
+// import Marketing from '../components/marketing'
 import BreakEven from '../components/break_even'
-import IncomeStatement from '../components/icnome_statement'
-
+import IncomeStatement from '../components/income_statement'
+//components
+import Logo from '../components/logo'
+import Header from '../components/header'
+import SidePanel from '../components/side_panel/v1'
 
 export default () => 
     <Router>
-        <Route exact path='/' component={Marketing} />
-        <Route exact path='/login' component={Register} />
-        <Route exact path='/home' component={Home} />
-        <Route exact path='/breakeven' component={BreakEven} />
-        <Route exact path='/incomestatement' component={IncomeStatement} />
+        <Public component={Logo} />
+        <Public component={Header} />
+        <Public exact path='/login' component={Register} />
+
+        <Private component={Logo} />
+        <Private component={Header} />
+        <Private component={SidePanel} />
+        <Private exact path='/dashboard' component={Dashboard} />
+        <Private exact path='/breakeven' component={BreakEven} />
+        <Private exact path='/incomestatement' component={IncomeStatement} />
+
     </Router>

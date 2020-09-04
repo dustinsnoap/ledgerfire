@@ -10,7 +10,7 @@ import GlobalStyle from './style/global'
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
-    <Router />
+    <Router test={'test'} />
   </React.StrictMode>,
   document.getElementById('root')
 )

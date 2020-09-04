@@ -1,6 +1,8 @@
 //imports
 import React from 'react'
 import {Link} from 'react-router-dom'
+//utilities
+import {login} from '../../utilities/register'
 
 export default () =>
     <div className='login'>
@@ -15,6 +17,6 @@ export default () =>
         <div className='buttons'>
             <button className='signup'><span>Sign Up</span></button>
             <button className='forgot-password'><span>Forgot Password</span></button>
-            <Link to='/home' className='login'><span>Log In</span></Link>
+            <Link to='/dashboard' className='login' onClick={login}><span>Log In</span></Link>
         </div>
     </div>

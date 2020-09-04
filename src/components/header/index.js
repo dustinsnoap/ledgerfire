@@ -1,8 +1,6 @@
-//imports
 import React from 'react'
-//components
-import Public from './components/public'
-import Private from './components/private'
+import Public from './public'
+import Private from './private'
+import {isLoggedIn} from '../../utilities/register'
 
-export default ({secure}) => 
-    secure ? <Private /> : <Public />
+export default () => isLoggedIn() ? <Private /> : <Public />

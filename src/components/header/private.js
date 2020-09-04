@@ -1,10 +1,12 @@
 //imports
 import React from 'react'
+//components
+import Logo from '../logo'
 //style
-import Style from '../style/private'
+import Style from './style/private'
 //assets
-import bell from '../../../assets/bell-icon.png'
-import avatar from '../../../assets/fonz.jpg'
+import bell from '../../assets/bell-icon.png'
+import avatar from '../../assets/fonz.jpg'
 
 export default () => 
     <Style className='header private'>
