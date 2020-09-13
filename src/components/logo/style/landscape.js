@@ -1,9 +1,7 @@
 export default `
     &.private {
-        background-color: #333;
-        a {
-            color: #ccc;
-        }
+        background-color: #33333a;
+        a { color: #ccc}
     }
     a {
         justify-self: flex-start;

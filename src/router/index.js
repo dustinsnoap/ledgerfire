@@ -23,6 +23,6 @@ export default () =>
         <Public exact path='/login' component={Register} />
 
         <Private exact path='/dashboard' component={Dashboard} />
-        <Private exact path='/breakeven' component={BreakEven} />
+        <Private exact path='/income' component={BreakEven} />
         <Private exact path='/expenses' component={IncomeStatement} />
     </Router>
